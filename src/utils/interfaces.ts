@@ -1,0 +1,36 @@
+export interface UpseResponse {
+  ALARMDEL: string;
+  APC: string;
+  BATTDATE: string;
+  BCHARGE: string;
+  CABLE: string;
+  CUMONBATT: string;
+  DATE: string;
+  DRIVER: string;
+  ENDAPC?: string;
+  FIRMWARE: string;
+  HITRANS: string;
+  HOSTNAME: string;
+  LASTXFER: string;
+  LINEV: string;
+  LOADPCT: string;
+  LOTRANS: string;
+  MAXTIME: string;
+  MBATTCHG: string;
+  MINTIMEL: string;
+  MODEL: string;
+  NOMBATTV: string;
+  NOMIVN: string;
+  NOMPOWER: string;
+  NUMXFERS: string;
+  SELFTET: string;
+  SENSE: string;
+  SERIALNO: string;
+  STARTTIME: string;
+  STATFLAG: string;
+  STATUS: "ONLINE" | "OFFLINE";
+  TIMELEFT: string;
+  UPSMODE: string;
+  UPSNAME: string;
+  VERSION: string;
+}
